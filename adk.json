@@ -1,0 +1,19 @@
+{
+  "name": "adk",
+  "description": "Google Agent Development Kit (ADK) - develop GenAI agents",
+  "merge_mode": "rule-based",
+  "sources": [
+    {
+      "type": "documentation",
+      "base_url": "https://google.github.io/adk-docs/",
+      "extract_api": true,
+      "max_pages": 400
+    },
+    {
+      "type": "github",
+      "repo": "google/adk-python",
+      "include_code": true,
+      "code_analysis_depth": "surface"
+    }
+  ]
+}
